@@ -29,10 +29,9 @@ if ($resultado) {
     <?php
 }
 
-    } else {
+ }  else {
         ?>
         <h3 class="error"> llena todos los campos</h3>
-        <?php
+          <?php
     }
-
 }
