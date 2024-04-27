@@ -32,7 +32,11 @@ if ($resultado) {
     } else {
         ?>
         <h3 class="error"> llena todos los campos</h3>
+    
+        <?php
+include("registrar.php");
+
+?>
         <?php
     }
-
 }
